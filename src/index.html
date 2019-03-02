@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Weather Application</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/weather-icons.min.css">
+    </head>
+    <body>
+        <main class="main">
+            <video poster="" id="bg-vid" playsinline autoplay muted loop>
+                <source src="video/Snow-Falling.mp4" type="video/mp4">
+            </video>
+            <div class="container backdrop-blur">
+                <div class="search-bar">
+                    <input type="search" name="search" class="search" placeholder="Search...">
+                    <button type="submit" class="btn btn-search" name="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="current-weather">
+                    <div class="current-city">
+                        <h1>Kyiv, UA</h1>
+                    </div>
+                    <i class="wi wi-night-sleet"></i>
+                    <span>-1°C</span>
+                </div>
+                <button class="btn" type="button" name="button">Add to favorite</button>
+            </div>
+        </main>
+    </body>
+</html>
